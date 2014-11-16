@@ -1,0 +1,19 @@
+<div id="page">
+
+    <div class="container">
+
+        <header class="site-header">
+            <a class="site-title" href="#">Media Lab Name Generator</a>
+        </header>
+
+        <div class="row">
+            <header class="name-header">
+                <h1 class="span12" id="lab-group-name">
+                </h1>
+            </header>
+        </div>
+
+        <button type="button" id="generator" class="btn btn-success">Regenerate</button>
+    </div> 
+
+</div>
