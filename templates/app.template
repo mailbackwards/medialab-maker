@@ -10,6 +10,8 @@
             <header class="name-header">
                 <h1 class="span12" id="lab-group-name">
                 </h1>
+                <p class="span12" id="lab-group-description">
+                </p>
             </header>
         </div>
 

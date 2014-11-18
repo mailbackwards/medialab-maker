@@ -27,7 +27,12 @@ var SplashView = Backbone.View.extend({
     makeFakeName: function(){
         var names = this.namesToPath;
         var name = this.getRandomWord(names['first']) + " " + this.getRandomWord(names['second']);
-        $('#lab-group-name').text(name)
+        var descrip = this.getRandomWord(names['descrips-first']) + " " + 
+                      this.getRandomWord(names['descrips-second']) + " " + 
+                      this.getRandomWord(names['descrips-third']) + " " + 
+                      this.getRandomWord(names['descrips-fourth']);
+        $('#lab-group-name').text(name);
+        $('#lab-group-description').text(descrip);
     },
      
     // render the whole app
