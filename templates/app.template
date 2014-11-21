@@ -3,7 +3,7 @@
     <div class="container">
 
         <header class="site-header">
-            <a class="site-title" href="#">Media Lab Name Generator</a>
+            <a class="site-title" href="#">Media Lab Maker</a>
         </header>
 
         <div class="row">
@@ -17,7 +17,7 @@
             </header>
         </div>
         
-        <button type="button" id="generator" class="btn">Regenerate</button>
+        <button type="button" id="generator" class="btn">Innovate</button>
     </div> 
 
 </div>
