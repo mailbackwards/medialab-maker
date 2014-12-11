@@ -5,7 +5,8 @@ var splashView; // HACK: needs to be global so template can access country data
 var SplashView = Backbone.View.extend({
 
     events: {
-      "click #generator":    "makeFakeName"
+      "click #generator":    "makeFakeName",
+      "click .ml-image":     "makeFakeName" 
     },
     
     initialize: function(){
@@ -25,6 +26,7 @@ var SplashView = Backbone.View.extend({
     },
 
     makeFakeName: function(){
+        $('.ml-image').remove()
         var names = this.namesToPath;
         var name = this.getRandomWord(names['first']) + " " + this.getRandomWord(names['second']);
         var descrip = this.getRandomWord(names['descrips-first']) + " " + 

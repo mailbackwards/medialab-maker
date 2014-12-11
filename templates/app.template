@@ -8,8 +8,9 @@
 
         <div class="row">
             <header class="name-header">
-                <img class="group-image" id="lab-group-img-first" />
-                <img class="group-image" id="lab-group-img-second" />
+                <img class="ml-image" src="img/medialab-full.jpg" height="300" width="500" />
+                <img class="group-image" id="lab-group-img-first" src="img/blankwhite.png" />
+                <img class="group-image" id="lab-group-img-second" src="img/blankwhite.png" />
                 <h1 class="span12" id="lab-group-name">
                 </h1>
                 <p class="span12" id="lab-group-description">

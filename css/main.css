@@ -164,11 +164,16 @@ a:visited { color: #205caa; }
   height:78px;
   z-index:-1;
   opacity:0.6;
-  border-color:#000;
 }
 
 #generator {
   position:absolute;
+}
+
+button {
+  width: 100px;
+  height:30px;
+  font-weight: bold;
 }
 
 /*#lab-group-img-second {
