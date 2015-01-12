@@ -8,7 +8,7 @@
 
         <div class="row">
             <header class="name-header">
-                <img class="ml-image" src="img/medialab-full.jpg" height="300" width="500" />
+                <img class="ml-image" src="img/medialab-full.jpg" />
                 <img class="group-image" id="lab-group-img-first" src="img/blankwhite.png" />
                 <img class="group-image" id="lab-group-img-second" src="img/blankwhite.png" />
                 <h1 class="span12" id="lab-group-name">
@@ -18,7 +18,7 @@
             </header>
         </div>
         
-        <button type="button" id="generator" class="btn">Innovate</button>
+        <button type="button" id="generator" class="btn">Make</button>
     </div> 
 
 </div>
